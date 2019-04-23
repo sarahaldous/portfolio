@@ -35,9 +35,12 @@ body, html {
     color: rgb(0, 26, 26);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     font-family: 'Cinzel', serif;
     text-align: center;
+}
+h6 {
+    font-family: 'Nanum Myeongjo', serif;
 }
 .description {
     display: block;
@@ -48,9 +51,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* .infoSections{
     /* background-color: rgba(255, 255, 255, 0.425); */
-} */
+/* }  */
 .infoSections p {
     padding: 0 10% 5% 10%;
+    font-family: 'Nanum Myeongjo', serif;
 }
 footer {
     width: 100vw;
@@ -64,7 +68,7 @@ footer {
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
@@ -96,4 +100,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
+}
+.galaxyContainer h6 {
+    font-family: 'Nanum Myeongjo', serif;
 }

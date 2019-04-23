@@ -30,6 +30,7 @@ body, html {
 }
 #info{
     color: rgb(0, 26, 26);
+    font-family: 'Nanum Myeongjo', serif;
 }
 #projects {
     color: rgb(0, 26, 26);
