@@ -11,44 +11,43 @@
 </head>
 <body>
     <div>
-        <div>
-
-
-    <!-- <div style="height: 1000px; background-color: rgb(121, 178, 151); background-image:url('resources/Iceplant.jpg') font-size: 1em"> -->
-    <!-- style=background="resources/Cypress.JPG" class="background"> -->
-        <div class="topnav">
+    <div class="topnav" id="header">
             <a id="home" href="home.html">Home</a>
             <a id="projects" href="projects.html">Projects</a>
             <div id="email">Email: <script>Hide.emails();</script></div>
-            <div id="phone">831-200-3835</div>
-            <div id="resume">Resume</div>
+            <a id="resume">Resume</a>
         </div>
-       <br>
+        <div class="content">
         <div id="divTop">
         <h1>Sarah Aldous</h1>
         <h3>JavaScript Developer</h3>
         </div>
         <div class="portrait">
-            <img src="resources/SarahHeadshot.png" alt="Snow" style="width:100%;">
+            <img src="resources/SarahHeadshot.png" style="width:100%">
         </div>
         <div class="infoSections">
             <h3>About Me</h3>
             <p>I’m very excited to be forging a new path in the field of web development. I bring my extensive and eclectic experience, including Spanish fluency, public speaking skills, attention to detail, adaptability, and determination to my new chosen field as a fullstack developer.</p>
         </div>
-       
-       
-    </div>
-    <!-- <div class="parallax"></div> -->
-    
-    
-       
-    <footer>
-        
-        <div>
-            <a href="https://www.flaticon.com/font-face">
+        <div id="projectsContainer">
+                <h2>Projects</h2>
+        <div class="projects" id="galaxyContainer">
+                    <h3>Galaxy Explorer</h3>
+                    <h6>This site allows the user to escape the everyday and explore the earth and the galaxy through beautiful pictures. They may also click for more information about the images from National Geographic and Nasa.</h6>
         </div>
-       
-    </footer>
-    </div>
+            <a href="https://galaxy-site.surge.sh/" target="_blank">
+                <div class="galaxyScreenShot"></div>
+            </a>
+        </div>
+        <div class=projects id="weatherContainer">
+                <h3>Weather Forecast</h3>
+                <h6>This weather app allows a user to select any city and state or city and country to check that location's weather. Background images behind the weather info show a visual example of that specific day's forecast. Users can also save their favorite cities.</h6>
+        </div>
+            <a href="https://sarahs-weather-app.herokuapp.com" target="_blank">
+                <div class="weatherScreenShot"></div>
+            </a>
+            </div>
+        </div>
+   
     </body>
     </html>

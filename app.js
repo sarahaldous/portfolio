@@ -14,3 +14,17 @@ Hide.emails = function (text) {
 Hide.email = function (account,domain,text) {
   document.write('<a href="mailto:'+account+'@'+domain+'">'+text+'</a>') ;
 } ;
+// Code to make header sticky:
+window.onscroll = function() {myFunction()};
+
+var topnav = document.getElementById("header");
+
+var sticky = topnav.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    topnav.classList.add("sticky");
+  } else {
+    topnav.classList.remove("sticky");
+  }
+}
