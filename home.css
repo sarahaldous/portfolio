@@ -72,6 +72,9 @@ body{
     .sticky + .content {
         padding-top: 102px;
     }
+    .content {
+        padding-bottom: 10%;
+    }
     h1, h2, h3, h4, h5 {
         font-family: 'Cinzel', serif;
         text-align: center;
@@ -110,6 +113,18 @@ body{
         align-items: center;
         justify-content: center;
     }
+    .projects h6 {
+        font-family: 'Nanum Myeongjo', serif;
+        font-size: 1em;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 5%;
+        padding-top: 0;
+    }
+    .projects h3 {
+        padding: 0;
+        padding-top: 5%;
+    }
     /* #projectsContainer {
         
     } */
@@ -119,8 +134,8 @@ body{
         margin-bottom: 3%;
     }
     #projectsContainer h6 {
-        font-family: 'Nanum Myeongjo', serif;
-        font-size: 1em;
+        /* font-family: 'Nanum Myeongjo', serif;
+        font-size: 1em; */
     }
     .galaxyScreenShot {
         background-image: url("resources/GalaxyScreenShot.png");
