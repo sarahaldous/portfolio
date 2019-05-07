@@ -117,3 +117,6 @@ footer {
 /* #galaxyContainer h6 {
     font-family: 'Nanum Myeongjo', serif;
 } */
+input {
+    display: block;
+}

@@ -34,3 +34,13 @@ function toProjects() {
   let elmnt = document.getElementById("projectsContainer");
   elmnt.scrollIntoView();
 }
+
+//Contact Form
+document.contactForm.addEventListener("submit", function(e){
+  e.preventDefault()
+  var name = document.contactForm.name
+  var company = document.contactForm.company.value
+  var email = document.contactForm.email.value
+  var phone = document.contactForm.phone.value
+  var info = document.contactForm.info.value
+})
