@@ -1,4 +1,3 @@
-// lib Maybe 
 var Hide = {} ;
 
 /* Helper functions for obscuring email. 
@@ -14,17 +13,24 @@ Hide.emails = function (text) {
 Hide.email = function (account,domain,text) {
   document.write('<a href="mailto:'+account+'@'+domain+'">'+text+'</a>') ;
 } ;
+
 // Code to make header sticky:
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {stickyHeader()};
 
 var topnav = document.getElementById("header");
 
 var sticky = topnav.offsetTop;
 
-function myFunction() {
+function stickyHeader() {
   if (window.pageYOffset > sticky) {
     topnav.classList.add("sticky");
   } else {
     topnav.classList.remove("sticky");
   }
+}
+
+// To scroll to projects and contact page
+function toProjects() {
+  let elmnt = document.getElementById("projectsContainer");
+  elmnt.scrollIntoView();
 }
