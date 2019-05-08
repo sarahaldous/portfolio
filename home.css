@@ -90,7 +90,7 @@ body{
     .infoSection p {
         padding: 0 10% 0% 10%;
         font-family: 'Nanum Myeongjo', serif;
-        background-color: rgba(0, 0, 0, 0.356);
+        background-color: rgba(0, 0, 0, 0.212);
         padding: 5%;
         
     }
@@ -176,6 +176,8 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: rgba(0, 0, 0, 0.212); 
+        padding-bottom: 5%;
     }
     input {
         background-color: rgb(192, 211, 202);
