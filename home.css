@@ -19,19 +19,20 @@ body{
     margin: 0;
     }
 .topnav {
-    background-color: rgb(188, 186, 196);
+    background-color: rgb(110, 185, 157);
     position: fixed;
     right: 0;
     left:0;
     z-index: 10;
     /* padding: 10px 16px; */
     padding-top: 4%;
+    padding-bottom: 4%;
     /* padding-bottom: 3%; */
     display: flex;
     justify-content: space-around;
     font-family: 'Cinzel', serif;
     margin: 0;
-    height: 10%;
+    height: auto;
     
     }
     #home {
@@ -43,9 +44,11 @@ body{
         color: rgb(0, 26, 26);
         padding: 0;
     }
-    #projects {
+    #projectsScroll {
         color: rgb(0, 26, 26);
         padding: 0;
+        text-decoration: underline;
+        
     }
     .portrait {
         max-height: 400px;
@@ -67,7 +70,7 @@ body{
         padding-top: 102px;
     }
     .content {
-        padding-top: 20%;
+        padding-top: 10%;
         padding-bottom: 10%;
         /* background-color: none; */
     }
@@ -86,6 +89,7 @@ body{
     .infoSection h2 {
         font-size: 2em;
         background-color: rgba(255, 255, 255, 0.425);
+        padding: 3%;
     }
     .infoSection p {
         padding: 0 10% 0% 10%;
@@ -121,21 +125,21 @@ body{
     }
     .projects h3 {
         /* padding: 0; */
-        padding-top: 5%;
+        padding: 3%;
+    }
+    #projectsWithPadding {
+        padding: 5%;
     }
     /* #projectsContainer {
         
     } */
     #projectsContainer h2 {
         font-size: 2em;
-        padding-bottom: 3%;
+        padding: 3%;
         margin-bottom: 3%;
+        /* padding-top: 5%; */
         background-color: rgba(255, 255, 255, 0.459);
     }
-    /* #projectsContainer h6 {
-        /* font-family: 'Nanum Myeongjo', serif;
-        font-size: 1em; */
-    /* }  */
     .galaxyScreenShot {
         background-image: url("resources/GalaxyScreenShot.png");
         height: 170px;
@@ -192,16 +196,30 @@ body{
         .topnav {
             padding: 10px 16px;
             /* background: #555; */
-            background-color: rgba(255, 255, 255, 0.226);
-            padding-top: 3%;
+            background-color: rgb(110, 185, 157);
+            padding: 3%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             font-family: 'Cinzel', serif;
             margin: 0;
-            height: 10%;
+            height: auto;
         
         }
+        .content {
+            padding-top: 35%;
+        }
+      }
+      @media only screen 
+      and (min-device-width : 768px) 
+      and (max-device-width : 1024px){
+        .topnav {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }  
+        .content {
+              padding-top: 20%;
+          }
       }
    

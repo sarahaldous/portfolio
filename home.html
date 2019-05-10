@@ -13,9 +13,10 @@
     <div>
     <div class="topnav" id="header">
             <a id="home" href="home.html">Home</a>
-            <button onclick="toProjects()">Projects</button>
-            <div id="email">Email: <script>Hide.emails();</script></div>
-            <a id="resume">Resume</a>
+            <div id="projectsScroll" onclick="toProjects()">Projects</div>
+            <div id="email"><script>Hide.emails();</script></div>
+            <a id="phone" href="tel:+8312003835">(831) 200-3835</a>
+            <a id="resume" href="https://docs.google.com/document/d/1bcLxk74Gm9dh6FXg0IW1J_hpS8dREAGA5VLmxLqo_Lo/edit?usp=sharing" target="_blank">Resume</a>
         </div>
         <div class="content">
         <div id="divTop">
@@ -25,10 +26,11 @@
         <div class="portrait">
             <img src="resources/SarahHeadshot.png" style="width:100%">
         </div>
-        <div class="infoSection">
+        <div class="infoSection" id="infoSection">
             <h2>About Me</h2>
             <p>I’m very excited to be forging a new path in the field of web development. I bring my extensive and eclectic experience, including Spanish fluency, public speaking skills, attention to detail, adaptability, and determination to my new chosen field as a fullstack developer.</p>
         </div>
+        <div id="projectsWithPadding"></div>
         <div id="projectsContainer">
                 <h2>Projects</h2>
         <div class="projects" id="galaxyContainer">
@@ -48,7 +50,7 @@
             </a>
             </div>
         </div>
-        <form name="contactForm">
+        <!-- <form name="contactForm">
             <h2>Contact Me</h2>
             Name <input name="name" placeholder="Name"/>
             <br>
@@ -61,7 +63,7 @@
             Additional Info <input name="info" placeholder="Please write any additional information here."/>
            
             <input type="submit" id="submit" value="submit">Submit</button>
-        </form>
+        </form> -->
         </div>
    
     </body>

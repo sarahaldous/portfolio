@@ -31,7 +31,7 @@ function stickyHeader() {
 
 // To scroll to projects and contact page
 function toProjects() {
-  let elmnt = document.getElementById("projectsContainer");
+  let elmnt = document.getElementById("projectsWithPadding");
   elmnt.scrollIntoView();
 }
 
