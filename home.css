@@ -162,19 +162,23 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    #galaxyContainer {
+    .blogScreenShot {
+        background-image: url("resources/BlogScreenShot.png");
+        height: 200px;
+        width: 300px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .projectContainer {
         background-color: rgba(0, 0, 0, 0.212);
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5%;
     }
-    #weatherContainer {
-        background-color: rgba(0, 0, 0, 0.212);
-        /* display: inline; */
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 5%;
-    }
+  
     form {
         display: flex;
         flex-direction: column;
@@ -185,6 +189,12 @@ body{
     }
     input {
         background-color: rgb(192, 211, 202);
+    }
+    .github {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 10px;
     }
     /* input .placeholder {
         justify-content: center;

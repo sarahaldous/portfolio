@@ -14,6 +14,15 @@ Hide.email = function (account,domain,text) {
   document.write('<a href="mailto:'+account+'@'+domain+'">'+text+'</a>') ;
 } ;
 
+// Hide.phones = function (text) {
+//   var t ='3';
+//   if (!text) text = '8' + t + 1 + t + '9' + '27' + '9' + '92';
+//   document.write('<a href="8313927992">'831-392-7992'</a>');
+// } ;
+
+// Hide.phone = function (account,domain,text) {
+//   document.write('<a href="mailto:'+account+'@'+domain+'">'+text+'</a>') ;
+// } ;
 // Code to make header sticky:
 window.onscroll = function() {stickyHeader()};
 
@@ -35,12 +44,12 @@ function toProjects() {
   elmnt.scrollIntoView();
 }
 
-//Contact Form
-document.contactForm.addEventListener("submit", function(e){
-  e.preventDefault()
-  var name = document.contactForm.name
-  var company = document.contactForm.company.value
-  var email = document.contactForm.email.value
-  var phone = document.contactForm.phone.value
-  var info = document.contactForm.info.value
-})
+// //Contact Form
+// document.contactForm.addEventListener("submit", function(e){
+//   e.preventDefault()
+//   var name = document.contactForm.name
+//   var company = document.contactForm.company.value
+//   var email = document.contactForm.email.value
+//   var phone = document.contactForm.phone.value
+//   var info = document.contactForm.info.value
+// })

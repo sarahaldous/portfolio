@@ -11,46 +11,61 @@
 </head>
 <body>
     <div>
-    <div class="topnav" id="header">
+        <div class="topnav" id="header">
             <a id="home" href="index.html">Home</a>
             <div id="projectsScroll" onclick="toProjects()">Projects</div>
             <div id="email"><script>Hide.emails();</script></div>
+            <!-- <a href="tel:+01-562-867-5309" rel="nofollow">1-562-867-5309</a> -->
             <a id="phone" href="tel:+8312003835">(831) 200-3835</a>
             <a id="resume" href="https://docs.google.com/document/d/1bcLxk74Gm9dh6FXg0IW1J_hpS8dREAGA5VLmxLqo_Lo/export?format=pdf" target="_blank">Resume</a>
             
         </div>
         <div class="content">
-        <div id="divTop">
-        <h1>Sarah Aldous</h1>
-        <h3>JavaScript Developer</h3>
-        </div>
-        <div class="portrait">
+            <div id="divTop">
+                <h1>Sarah Aldous</h1>
+                <h3>JavaScript Developer</h3>
+            </div>
+            <div class="portrait">
             <img src="resources/SarahHeadshot.png" style="width:100%">
-        </div>
-        <div class="infoSection" id="infoSection">
-            <h2>About Me</h2>
-            <p>I’m very excited to be forging a new path in the field of web development. I bring my extensive and eclectic experience, including Spanish fluency, public speaking skills, attention to detail, adaptability, and determination to my new chosen field as a fullstack developer.</p>
-        </div>
-        <div id="projectsWithPadding"></div>
-        <div id="projectsContainer">
+            </div>
+            <div class="infoSection" id="infoSection">
+                <h2>About Me</h2>
+                <p>I’m very excited to be forging a new path in the field of web development. I bring my extensive and eclectic experience, including Spanish fluency, public speaking skills, attention to detail, adaptability, and determination to my new chosen field as a fullstack developer.</p>
+            </div>
+            <div id="projectsWithPadding"></div>
+            <div id="projectsContainer">
                 <h2>Projects</h2>
-        <div class="projects" id="galaxyContainer">
+                <div class="projects" class="projectContainer">
                     <h3>Galaxy Explorer</h3>
                     <h6>This site allows the user to escape the everyday and explore the earth and the galaxy through beautiful pictures. They may also click for more information about the images from National Geographic and Nasa.</h6>
-        </div>
-            <a href="https://galaxy-site.surge.sh/" target="_blank">
+                </div>
+                <a href="https://galaxy-site.surge.sh/" target="_blank" rel="noopener noreferrer">
                 <div class="galaxyScreenShot"></div>
-            </a>
-        
-        <div class=projects id="weatherContainer">
-                <h3>Weather Forecast</h3>
-                <h6>This weather app allows a user to select any city and state or city and country to check that location's weather. Background images behind the weather info show a visual example of that specific day's forecast. Users can also save their favorite cities.</h6>
-        </div>
-            <a href="https://sarahs-weather-app.herokuapp.com" target="_blank">
-                <div class="weatherScreenShot"></div>
-            </a>
+                </a>
+                <a class="github" href="https://github.com/sarahaldous/assignments/tree/master/projects/personal-react-site" target="_blank" rel="noopener noreferrer">See Code on Github</a>
+                <div class=projects class="projectContainer">
+                    <h3>Weather Forecast</h3>
+                    <h6>This weather app allows a user to select any city and state or city and country to check that location's weather. Background images behind the weather info show a visual example of that specific day's forecast. Users can also save their favorite cities.</h6>
+                </div>
+                <a href="https://sarahs-weather-app.herokuapp.com" target="_blank" rel="noopener noreferrer">
+                    <div class="weatherScreenShot"></div>
+                </a>
+                <a class="github" href="https://github.com/sarahaldous/WeatherApp" target="_blank" rel="noopener noreferrer">See Code on Github</a>
+                <div class=projects class="projectContainer">
+                    <h3>Blog Site with Gatsby and NetlifyCMS</h3>
+                    <h6>This site combines Gatsby and NetlifyCMS to provide a reusable blog template that updates automatically either from a git push or changes made on the NetlifyCMS site. This ensures that developers or non-developers can update it as needed, without needing to re-deploy.</h6>
+                </div>
+                <a href="https://youthful-neumann-2e7745.netlify.com/" target="_blank" rel="noopener noreferrer">
+                    <div class="blogScreenShot"></div>
+                </a>
+                <a class="github" href="https://github.com/sarahaldous/Netlify-CMS-Tutorial" target="_blank" rel="noopener noreferrer">See Code on Github</a>
+                
+
             </div>
         </div>
+       
+       
+    </div>
         <!-- <form name="contactForm">
             <h2>Contact Me</h2>
             Name <input name="name" placeholder="Name"/>
