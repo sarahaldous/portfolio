@@ -178,6 +178,26 @@ body{
         margin-right: auto;
         margin-bottom: 5%;
     }
+    .CounterScreenShot {
+        background-image: url("resources/CounterScreenShot.png");
+        height: 200px;
+        width: 300px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .projectsScreenShot {
+        background-image: url("resources/ProjectsScreenShot.png");
+        height: 200px;
+        width: 300px;
+        background-size: cover;
+        background-position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
   
     form {
         display: flex;
