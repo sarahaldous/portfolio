@@ -5,11 +5,9 @@ font-family: 'Nanum Myeongjo', serif; */
 
 body,
 html {
-  /* height: 100%; */
+  height: 100%;
   font-family: "Nanum Myeongjo", serif;
   background-color: rgb(141, 206, 176);
-  margin: 0;
-  padding: 0;
 }
 body {
   /* background-image: url("resources/PurpleCarpet.png"); */
@@ -18,21 +16,22 @@ body {
   background-repeat: fixed;
   background-size: cover;
   margin: 0;
+  padding: 0;
 }
 .topnav {
-  background-color: rgb(110, 185, 157);
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 10;
-  /* padding: 10px 16px; */
-  padding-top: 2%;
-  padding-bottom: 2%;
-  display: flex;
-  justify-content: space-around;
-  font-family: "Cinzel", serif;
-  margin: 0;
-  height: auto;
+    padding: 10px 16px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: rgb(110, 185, 157);
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Cinzel", serif;
+    margin: 0;
+    height: auto;
 }
 #home {
   /* color: rgb(1, 44, 31); */
@@ -57,7 +56,6 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 30pt; */
 }
 .sticky {
   position: fixed;
@@ -68,7 +66,7 @@ body {
   padding-top: 102px;
 }
 .content {
-  padding-top: 0%;
+  padding-top: 10%;
   padding-bottom: 0%;
   /* background-color: none; */
 }
@@ -80,19 +78,20 @@ h5 {
   font-family: "Cinzel", serif;
   text-align: center;
   padding-bottom: 0;
+  /* margin-bottom: 0; */
 }
 h6 {
   font-family: "Nanum Myeongjo", serif;
   padding-bottom: 0;
+  /* margin-bottom: 0; */
 }
-/* .infoSection {
-  /* padding-top: 5%;
-  padding-bottom: 5%; */
-/* } */ */
+ /* .infoSection {
+   padding-top: 5%;
+  padding-bottom: 5%; 
+ }  */
 .infoSection h2 {
   font-size: 2em;
   background-color: rgba(255, 255, 255, 0.425);
-  /* padding: 3%; */
 }
 .infoSection p {
   padding: 0 10% 0% 10%;
@@ -115,18 +114,21 @@ p {
   display: block;
   align-items: center;
   justify-content: center;
+  padding-bottom: 30px;
 }
 .projects h6 {
   font-family: "Nanum Myeongjo", serif;
   font-size: 1em;
   padding-right: 10%;
   padding-left: 10%;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
   padding-top: 0;
+  margin: 0;
 }
 .projects h3 {
   /* padding: 0; */
-  padding: 3%;
+  padding-top: 3%;
+  text-decoration: underline;
 }
 #projectsWithPadding {
   padding: 5%;
@@ -138,9 +140,9 @@ p {
   font-size: 2em;
   padding: 3%;
   margin-bottom: 3%;
-  /* padding-top: 5%; */
   background-color: rgba(255, 255, 255, 0.459);
 }
+
 .beekeeperScreenShot {
   background-image: url("resources/BeekeeperScreenShot.png");
   height: 170px;
@@ -152,6 +154,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10%;
+  padding-top: 30px;
+  margin-top: 30px;
 }
 .galaxyScreenShot {
   background-image: url("resources/GalaxyScreenShot.png");
@@ -164,6 +168,8 @@ p {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10%;
+  padding-top: 30px;
+  margin-top: 30px;
 }
 .weatherScreenShot {
   background-image: url("resources/WeatherScreenShot.png");
@@ -174,6 +180,7 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 .blogScreenShot {
   background-image: url("resources/BlogScreenShot.png");
@@ -184,6 +191,7 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 .projectContainer {
   background-color: rgba(0, 0, 0, 0.212);
@@ -191,7 +199,7 @@ p {
   margin-right: auto;
   margin-bottom: 5%;
 }
-.CounterScreenShot {
+.counterScreenShot {
   background-image: url("resources/CounterScreenShot.png");
   height: 200px;
   width: 300px;
@@ -200,6 +208,7 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 .projectsScreenShot {
   background-image: url("resources/ProjectsScreenShot.png");
@@ -210,6 +219,8 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+  padding-top: 15px;
 }
 
 form {
@@ -232,7 +243,6 @@ input {
 /* input .placeholder {
         justify-content: center;
         align-items: center;
-
         text-align: center;
     } */
 @media only screen and (max-width: 600px) {
@@ -251,6 +261,7 @@ input {
   }
   .content {
     padding-top: 35%;
+    margin-top: 30px;
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
